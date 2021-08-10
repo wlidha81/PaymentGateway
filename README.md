@@ -46,21 +46,35 @@ Cko.PaymentGateway.Tests.csproj
 # Testing Tool
  Xunit
  
-#code coverage computed by Fine Code Coverage 
+# Api Swager url:
+https://localhost:5001/swagger/index.html
+ 
+#Code coverage computed by Fine Code Coverage 
  -![image](https://user-images.githubusercontent.com/32079370/128808085-68084235-c6cb-44a3-9047-0016bf1b678d.png)
  
  -![image](https://user-images.githubusercontent.com/32079370/128808125-061fcf1b-3eac-43dc-83d8-5509d2f5f0e2.png)
  
+#Improvements
+
+ - Usage of RetryPolicy (Polly)
  
- #Improvements
- -Usage of RetryPolicy (Polly)
- -Implement CacheDecorator pattern for services that retrieve payments details
- -Handle PaymentData Security (hashed data...)
+ - Implement CacheDecorator pattern for services that retrieve payments details
  
+ - Handle PaymentData Security (hashed data...)
+ 
+ - Handle Permissions and security (oAuth, Jwt)
+  
  #Cloud Technologies that could be used
- -Disaster Recovery
- -Data Backup
- -Horizontal Scaling
+ - Disaster Recovery
+ 
+ - Data Backup
+ 
+ - Horizontal Scaling
+ 
+ - Load Balancing
+ 
+ - Caching.
+ 
  
  
  
