@@ -1,0 +1,8 @@
+
+Cko.PaymentGateway/Cko.PaymentGateway.Business.Tests/bin
+Cko.PaymentGateway/Cko.PaymentGateway.Business.Tests/obj
+Cko.PaymentGateway/**/obj
+Cko.PaymentGateway/**/bin
+*.testlog
+Cko.PaymentGateway/.vs/Cko.PaymentGateway/v16/.suo
+Cko.PaymentGateway/.vs/Cko.PaymentGateway/v16/TestStore/0/testlog.manifest

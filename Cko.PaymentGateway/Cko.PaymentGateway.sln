@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cko.PaymentGateway", "Cko.PaymentGateway\Cko.PaymentGateway.csproj", "{7B1FE2CC-FD30-4F87-A6DF-DFA12850EE44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cko.PaymentGateway.Business", "Cko.PaymentGateway.Business\Cko.PaymentGateway.Business.csproj", "{A4D01ADA-A984-4508-B4DD-8D3F21186538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cko.PaymentGateway.Business.Tests", "Cko.PaymentGateway.Business.Tests\Cko.PaymentGateway.Business.Tests.csproj", "{035B72CE-456B-4490-8879-8DF2FB7B4069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cko.PaymentGateway.Tests", "Cko.PaymentGateway.Tests\Cko.PaymentGateway.Tests.csproj", "{3BE9C304-5D08-4936-ABC8-712564294796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cko.PaymentGateway.IntegrationTests", "Cko.PaymentGateway.IntegrationTests\Cko.PaymentGateway.IntegrationTests.csproj", "{24F92F9A-389E-4007-BCAB-9A7424BFE3BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cko.PaymentGateway.Data.Models", "Cko.PaymentGateway.Data.Models\Cko.PaymentGateway.Data.Models.csproj", "{911E1B31-1041-4E3B-836F-59782BA95631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cko.PaymentGateway.Data.Dtos", "Cko.PaymentGateway.Data.Dtos\Cko.PaymentGateway.Data.Dtos.csproj", "{DE1EC6D8-08D4-451A-9B46-B49E69AB6430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cko.PaymentGateway.Data.Validators", "Cko.PaymentGateway.Data.Validators\Cko.PaymentGateway.Data.Validators.csproj", "{BEA5D28A-7495-4300-9767-014F2AF569F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cko.PaymentGateway.Data.Validators.Tests", "Cko.PaymentGateway.Data.Validators.Tests\Cko.PaymentGateway.Data.Validators.Tests.csproj", "{1D14DA86-5F02-4846-BE51-EC661F3BA8FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cko.PaymentGateway.BankSimulator", "Cko.PaymentGateway.BankSimulator\Cko.PaymentGateway.BankSimulator.csproj", "{DA491260-CC1F-4655-BCC2-3EDD9A85087C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B1FE2CC-FD30-4F87-A6DF-DFA12850EE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1FE2CC-FD30-4F87-A6DF-DFA12850EE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1FE2CC-FD30-4F87-A6DF-DFA12850EE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1FE2CC-FD30-4F87-A6DF-DFA12850EE44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D01ADA-A984-4508-B4DD-8D3F21186538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D01ADA-A984-4508-B4DD-8D3F21186538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D01ADA-A984-4508-B4DD-8D3F21186538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D01ADA-A984-4508-B4DD-8D3F21186538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035B72CE-456B-4490-8879-8DF2FB7B4069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035B72CE-456B-4490-8879-8DF2FB7B4069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035B72CE-456B-4490-8879-8DF2FB7B4069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035B72CE-456B-4490-8879-8DF2FB7B4069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE9C304-5D08-4936-ABC8-712564294796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE9C304-5D08-4936-ABC8-712564294796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE9C304-5D08-4936-ABC8-712564294796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE9C304-5D08-4936-ABC8-712564294796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F92F9A-389E-4007-BCAB-9A7424BFE3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F92F9A-389E-4007-BCAB-9A7424BFE3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F92F9A-389E-4007-BCAB-9A7424BFE3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F92F9A-389E-4007-BCAB-9A7424BFE3BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911E1B31-1041-4E3B-836F-59782BA95631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911E1B31-1041-4E3B-836F-59782BA95631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911E1B31-1041-4E3B-836F-59782BA95631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911E1B31-1041-4E3B-836F-59782BA95631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1EC6D8-08D4-451A-9B46-B49E69AB6430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1EC6D8-08D4-451A-9B46-B49E69AB6430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1EC6D8-08D4-451A-9B46-B49E69AB6430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1EC6D8-08D4-451A-9B46-B49E69AB6430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA5D28A-7495-4300-9767-014F2AF569F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA5D28A-7495-4300-9767-014F2AF569F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA5D28A-7495-4300-9767-014F2AF569F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA5D28A-7495-4300-9767-014F2AF569F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D14DA86-5F02-4846-BE51-EC661F3BA8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D14DA86-5F02-4846-BE51-EC661F3BA8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D14DA86-5F02-4846-BE51-EC661F3BA8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D14DA86-5F02-4846-BE51-EC661F3BA8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA491260-CC1F-4655-BCC2-3EDD9A85087C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA491260-CC1F-4655-BCC2-3EDD9A85087C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA491260-CC1F-4655-BCC2-3EDD9A85087C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA491260-CC1F-4655-BCC2-3EDD9A85087C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40A4B83E-B55F-40A6-8ABF-6E46915DD6D7}
+	EndGlobalSection
+EndGlobal

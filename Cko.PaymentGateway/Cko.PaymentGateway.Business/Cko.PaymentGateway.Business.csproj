@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cko.PaymentGateway.BankSimulator\Cko.PaymentGateway.BankSimulator.csproj" />
+    <ProjectReference Include="..\Cko.PaymentGateway.Data.Dtos\Cko.PaymentGateway.Data.Dtos.csproj" />
+  </ItemGroup>
+
+</Project>
